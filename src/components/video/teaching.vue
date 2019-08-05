@@ -25,12 +25,6 @@ export default {
   components: {
     videoStatic
   },
-  // created() {
-  //   var allVideo = [];
-  //   allVideo = this.allVideoTest.filter(item => item.type === "zhaoshangVideo");
-  //   // console.log(allVideo);
-  //   return allVideo;
-  // },
   computed: {
     ...mapGetters(["zhaoshangVideoArr"]),
 
