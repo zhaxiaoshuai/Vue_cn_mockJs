@@ -1,5 +1,7 @@
 export default {
   zhaoshangVideoArr(state){
-    return state.allVideo.filter(item => item.type === 'teaching')
+    return state.allVideo.filter(item => {
+      return  item.type === 'teaching'
+    })
   }
 }
